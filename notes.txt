@@ -19,3 +19,11 @@ C-p - autocomplete previous
 C-b - doc scroll back
 C-f - doc scroll forward
 C-y - accept completion
+* - match all occurrences of word under cursor
+ciw - change in word (removes word and you can change)
+. - replay last action
+:%s/find/replace/g(c - confirm) - string match find replace global
+reg - shows what's in registers
+" - specifies register before command
+qh - record macro into h register, q to stop 
+@h - replays macro at h
