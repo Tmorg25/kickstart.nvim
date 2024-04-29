@@ -7,5 +7,15 @@ esc in normal -> removes highlight
 < >y, < >p -> yank and paste to system clipboard
 yap -> yank all paragraph
 <C-h> -> move focus to left for split (works for all four direction keys)
-
-
+Lazy update -> updates plugins from config
+gd - go to definition
+gr - go to references
+gI - go to implementation
+< >D - go to type definition
+K - provides documentation provided by the lsp (like hover on mouse)
+telescope is < >s[something]
+C-n - autocomplete next
+C-p - autocomplete previous
+C-b - doc scroll back
+C-f - doc scroll forward
+C-y - accept completion
