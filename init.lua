@@ -411,7 +411,20 @@ require('lazy').setup({
       end, { desc = '[S]earch [N]eovim files' })
     end,
   },
-
+  {
+    'nvim-telescope/telescope-file-browser.nvim',
+    dependencies = { 'nvim-telescope/telescope.nvim', 'nvim-lua/plenary.nvim' },
+    config = function()
+      vim.keymap.set('n', '<space>fb', ':Telescope file_browser path=%:p:h select_buffer=true<CR>')
+    end,
+  },
+  {
+    'nvim-tree/nvim-tree.lua',
+    config = function()
+      require('nvim-tree').setup()
+      vim.keymap.set('n', '<leader>ft', ':NvimTreeToggle<CR>', { silent = true })
+    end,
+  },
   { -- LSP Configuration & Plugins
     'neovim/nvim-lspconfig',
     dependencies = {
