@@ -1,0 +1,11 @@
+Some shortcuts
+< > is leader (space)
+esc in normal -> removes highlight
+[d , ]d -> prev / next diagnostic message
+< >e -> show diagnostic error message
+< >q -> open diagnostic quickfix
+< >y, < >p -> yank and paste to system clipboard
+yap -> yank all paragraph
+<C-h> -> move focus to left for split (works for all four direction keys)
+
+
