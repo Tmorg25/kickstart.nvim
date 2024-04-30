@@ -27,3 +27,5 @@ reg - shows what's in registers
 " - specifies register before command
 qh - record macro into h register, q to stop 
 @h - replays macro at h
+
+:MetalsImportBuild - imports build in metals
