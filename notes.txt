@@ -27,3 +27,6 @@ reg - shows what's in registers
 " - specifies register before command
 qh - record macro into h register, q to stop 
 @h - replays macro at h
+
+< >H - toggle harpoon telescope
+< >ht - harpoon quick menu
