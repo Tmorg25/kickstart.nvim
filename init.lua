@@ -192,7 +192,7 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 
 -- leader y and leader p yanks and pastes to system clipboard
 vim.keymap.set('n', '<leader>p', '"+p', { desc = 'paste from system clip' })
-vim.keymap.set('n', '<leader>y', '"+y', { desc = 'yank to system clip' })
+vim.keymap.set('v', '<leader>y', '"+y', { desc = 'yank to system clip' })
 
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
