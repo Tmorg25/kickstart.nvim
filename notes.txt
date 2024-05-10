@@ -30,3 +30,7 @@ qh - record macro into h register, q to stop
 
 < >H - toggle harpoon telescope
 < >ht - harpoon quick menu
+
+
+link to setup godot lsp connection:
+https://www.reddit.com/r/neovim/comments/13ski66/neovim_configuration_for_godot_4_lsp_as_simple_as/
